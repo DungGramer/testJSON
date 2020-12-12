@@ -88,25 +88,6 @@
             },
             "Correct": "A"
         },
-                {
-            "QuestionTitle": "Create procedure spud_vật_tư_sửa
-                              @Mav char(4), @TenVT varchar(100), @DVT varchar(10), @PT real
-                              As 
-                              Update vattu
-                              Set tenvtu=@tenvt,DonVT=@DVT,phantram=@pt
-                              Where mavattu=@mav
-                              Execute spud_vật_tư_sửa ‘DD001’, ‘ Đầu DVD’, ‘chiếc’,20
-                              Select * from vattu
-            ",
-            "Type": 1,
-            "Answer": {
-                "A": "Hủy thủ tục sửa đổi vật tư trong bảng VATTU với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng",
-                "B": "Xây dựng thủ tục sửa đổi vật tư trong bảng VATTU với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng",
-                "C": "Xây dựng thủ tục xóa vật tư trong bảng VATTU với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng",
-                "D": "Xây dựng thủ tục sửa đổi vật tư trong các bảng csdl với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng"
-            },
-            "Correct": "B"
-        },
         {
             "QuestionTitle": "Hãy cho cú pháp sửa Database User là? Đâu là phương án đúng trong các phương án dưới đây",
             "Type": 1,
