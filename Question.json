@@ -1,26 +1,155 @@
 {
     "data": [
         {
-            "QuestionTitle": "1 + 1 = ?",
+            "QuestionTitle": "Hãy cho biết Table là gì? Đâu là phương án đúng trong các phương án dưới đây",
             "Type": 1,
             "Answer": {
-                "A": "1",
-                "B": "2",
-                "C": "3",
-                "D": "5"
+                "A": "Là đối tượng lưu trữ dữ liệu của CSDL",
+                "B": "Là đối tượng CSDL chứa các câu lệnh Select",
+                "C": "Không phải là đối tượng lưu trữ dữ liệu của CSDL",
+                "D": "Là đối tượng chứa các tập lệnh của T-SQL"
+            },
+            "Correct": "A"
+        },
+        {
+            "QuestionTitle": "Trong Table, chức năng của Set Primary key là gì? Đâu là phương án đúng trong các phương án dưới đây",
+            "Type": 1,
+            "Answer": {
+                "A": "Kiểu dữ liệu",
+                "B": "Chú thích",
+                "C": "Sửa bảng",
+                "D": "Tạo khóa"
             },
             "Correct": "D"
         },
         {
-            "QuestionTitle": "Hello Hello",
+            "QuestionTitle": "Hãy cho biết View là gì? Đâu là phương án đúng trong các phương án dưới đây",
             "Type": 1,
             "Answer": {
-                "A": "Hi",
-                "B": "haha",
-                "C": "huhu",
-                "D": "abc"
+                "A": "Hãy cho biết View là gì? Đâu là phương án đúng trong các phương án dưới đây",
+                "B": "Là đối tượng chứa các tập lệnh của T-SQL",
+                "C": "Là đối tượng lưu trữ dữ liệu của CSDL",
+                "D": "Là đối tượng CSDL chứa các câu lệnh Select"
             },
             "Correct": "D"
-        }
+        },
+        {
+            "QuestionTitle": "Hãy cho biết trong Table thì Data Type là gì? Đâu là phương án đúng trong các phương án dưới đây",
+            "Type": 1,
+            "Answer": {
+                "A": "Không phải là đối tượng lưu trữ dữ liệu của CSDL",
+                "B": "Là đối tượng CSDL chứa các câu lệnh Select",
+                "C": "Là kiểu dữ liệu",
+                "D": "Là đối tượng chứa các tập lệnh của T-SQL"
+            },
+            "Correct": "C"
+        },
+        {
+            "QuestionTitle": "Tạo CSDL. Khi cửa sổ New Database xuất hiện. Để xác định kích thước khởi tạo cho CSDL là 10 MB ta sẽ thiết lập tại mục",
+            "Type": 1,
+            "Answer": {
+                "A": "Autogrowth",
+                "B": "Filegroup",
+                "C": "Owner",
+                "D": "Init Size"
+            },
+            "Correct": "D"
+        },
+        {
+            "QuestionTitle": "Tạo CSDL. Khi cửa sổ New Database xuất hiện. Mục Autogrowth sử dụng để thiết lập",
+            "Type": 1,
+            "Answer": {
+                "A": "Đường dẫn đặt file CSDL",
+                "B": "Kích thước tăng trưởng tự động của CSDL",
+                "C": "Kích thước khởi tạo của file CSDl",
+                "D": "Kích thước khởi tạo của file CSDl"
+            },
+            "Correct": "B"
+        },
+        {
+            "QuestionTitle": "Hãy cho biết Cơ sở dữ liệu MSDB dùng để làm gì? Đâu là phương án đúng trong các phương án dưới đây",
+            "Type": 1,
+            "Answer": {
+                "A": "Lưu trữ các đối tượng tạm thời",
+                "B": "Là CSDL được sử dụng bởi Sql Server Agent: để lập lịch hoặc một số công việc thường nhật",
+                "C": "CSDL mẫu để tạo ra các CSDL người dùng",
+                "D": "Lưu trữ tất cả thông tin hệ thống của Sql Server"
+            },
+            "Correct": "B"
+        },
+        {
+            "QuestionTitle": "Hãy cho biết Cơ sở dữ liệu Model dùng để làm gì? Đâu là phương án đúng trong các phương án dưới đây",
+            "Type": 1,
+            "Answer": {
+                "A": "CSDL mẫu để tạo ra các CSDL người dùng",
+                "B": "Để lập lịch hoặc một số công việc thường nhật",
+                "C": "Lưu trữ các đối tượng tạm thời",
+                "D": "Lưu trữ các đối tượng tạm thời"
+            },
+            "Correct": "A"
+        },
+                {
+            "QuestionTitle": "Create procedure spud_vật_tư_sửa
+                              @Mav char(4), @TenVT varchar(100), @DVT varchar(10), @PT real
+                              As 
+                              Update vattu
+                              Set tenvtu=@tenvt,DonVT=@DVT,phantram=@pt
+                              Where mavattu=@mav
+                              Execute spud_vật_tư_sửa ‘DD001’, ‘ Đầu DVD’, ‘chiếc’,20
+                              Select * from vattu
+            ",
+            "Type": 1,
+            "Answer": {
+                "A": "Hủy thủ tục sửa đổi vật tư trong bảng VATTU với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng",
+                "B": "Xây dựng thủ tục sửa đổi vật tư trong bảng VATTU với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng",
+                "C": "Xây dựng thủ tục xóa vật tư trong bảng VATTU với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng",
+                "D": "Xây dựng thủ tục sửa đổi vật tư trong các bảng csdl với tên Spud_VatTu_Sua với 4 tham số vào chính là giá trị cần thay đổi của các cột trong bảng VATTU. Thủ tục chỉ cần thực hiện lệnh UPDATE SET với các giá trị tương ứng"
+            },
+            "Correct": "B"
+        },
+        {
+            "QuestionTitle": "Hãy cho cú pháp sửa Database User là? Đâu là phương án đúng trong các phương án dưới đây",
+            "Type": 1,
+            "Answer": {
+                "A": "Alter table <Tên user> with [name=<Tên user mới>] [default_schema=<Tên schema>]",
+                "B": "Alter login <Tên user> with [name=<Tên user mới>] [default_schema=<Tên schema>]",
+                "C": "Tất cả đều sai",
+                "D": "Alter user <Tên user> with [name=<Tên user mới>] [default_schema=<Tên schema>]"
+            },
+            "Correct": "D"
+        },
+        {
+            "QuestionTitle": "Hãy cho biết, khi có yêu cầu của người dùng hệ quản trị CSDL sẽ làm gì? Đâu là phương án đúng trong các phương án dưới đây",
+            "Type": 1,
+            "Answer": {
+                "A": "Sẽ gửi yêu cầu và yêu cầu hệ điều hành tìm một số tệp chứa dữ liệu cần thiết, hệ thống sẽ không tìm, xử lí và không trả kết quả cho người dùng",
+                "B": "Sẽ gửi yêu cầu và yêu cầu hệ điều hành tìm một số tệp chứa dữ liệu cần thiết, hệ thống sẽ không tìm, xử lí và không trả kết quả cho người dùng",
+                "C": "Sẽ gửi yêu cầu và yêu cầu hệ điều hành tìm một số tệp chứa dữ liệu cần thiết, hệ thống sẽ tìm, xử lí và trả kết quả cho người dùng",
+                "D": "Không cần gửi yêu cầu, hệ thống sẽ tìm, xử lí và trả kết quả cho người dùng"
+            },
+            "Correct": "C"
+        },
+        {
+            "QuestionTitle": "Các đặc tính của SQL Server là",
+            "Type": 1,
+            "Answer": {
+                "A": "Có hệ thống phân quyền bảo mật tương thích; Cho phép quản trị một hệ CSDL lớn (lên tới vài Tega byte);",
+                "B": "Có tốc độ xử lý dữ liệu nhanh đáp ứng yêu cầu về thời gian.",
+                "C": "Cho phép quản trị một hệ CSDL lớn (lên tới vài Tega byte); Có tốc độ xử lý dữ liệu nhanh đáp ứng yêu cầu về thời gian; Cho phép nhiều người cùng khai thác trong một thời điểm với một CSDL; Có hệ thống phân quyền bảo mật tương thích"
+            },
+            "Correct": "C"
+        },
+        {
+            "QuestionTitle": "Log file là",
+            "Type": 1,
+            "Answer": {
+                "A": "không phải là tệp tin của CSDL SQL Server",
+                "B": "là tập tin lưu trữ dữ liệu thứ hai, loại tập tin này cho phép một CSDL có thể phân tán dữ liệu ở nhiều nơi trên máy tính hoặc trên mạng.",
+                "C": "là loại tập tin lưu trữ thông tin nhật ký của CSDL",
+                "D": "là file chính lưu trữ dữ liệu (Master Data File)",
+                "E": "Không có loại file này"
+            },
+            "Correct": "C"
+        },
     ]
 }
