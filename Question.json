@@ -12,6 +12,10 @@
             "Correct": "A"
         },
         {
+            "QuestionTitle": "Viết vài câu giới thiệu về bản thân bạn?",
+            "Type": 0,
+        },
+        {
             "QuestionTitle": "Trong Table, chức năng của Set Primary key là gì? Đâu là phương án đúng trong các phương án dưới đây",
             "Type": 1,
             "Answer": {
