@@ -23,6 +23,17 @@
           "Correct": ""
         },
         {
+          "QuestionTitle": "Phân biệt foreact và map?",
+          "Type": 2,
+          "Answer": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "Correct": ""
+        },
+        {
             "QuestionTitle": "Trong Table, chức năng của Set Primary key là gì? Đâu là phương án đúng trong các phương án dưới đây",
             "Type": 1,
             "Answer": {
