@@ -13,7 +13,7 @@
         },
         {
             "QuestionTitle": "Viết vài câu giới thiệu về bản thân bạn?",
-            "Type": 0,
+            "Type": 2,
         },
         {
             "QuestionTitle": "Trong Table, chức năng của Set Primary key là gì? Đâu là phương án đúng trong các phương án dưới đây",
