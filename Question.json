@@ -143,6 +143,17 @@
             "Correct": "C"
         },
         {
+          "QuestionTitle": "Hãy giới thiệu về gia đình bạn?",
+          "Type": 2,
+          "Answer": {
+            "A": "",
+            "B": "",
+            "C": "",
+            "D": ""
+          },
+          "Correct": ""
+        },
+        {
             "QuestionTitle": "Log file là",
             "Type": 1,
             "Answer": {
