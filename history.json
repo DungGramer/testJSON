@@ -1,0 +1,39 @@
+{
+  "history": [
+    { 
+      "title": "Khoá training PHP - Level Fresher", 
+      "beginDay": "07/12/2020", 
+      "endDay": "08/12/2020", 
+      "correctAmount": "10/15",
+      "time": "15:00" 
+    },
+    { 
+      "title": "Khoá training Javascript - Level Junior", 
+      "beginDay": "09/12/2020", 
+      "endDay": "10/12/2020", 
+      "correctAmount": "20/20",
+      "time": "20:00" 
+    },
+    { 
+      "title": "Kiểm tra IOS - Level Fresher", 
+      "beginDay": "15/12/2020", 
+      "endDay": "16/12/2020", 
+      "correctAmount": "12/15",
+      "time": "15:00" 
+    },
+    { 
+      "title": "Khoá training PHP - Level Fresher", 
+      "beginDay": "07/12/2020", 
+      "endDay": "08/12/2020", 
+      "correctAmount": "10/15",
+      "time": "15:00" 
+    },
+    { 
+      "title": "Khảo sát đầu vào Javascript - Level Senior", 
+      "beginDay": "09/12/2020", 
+      "endDay": "09/12/2020", 
+      "correctAmount": "15/15",
+      "time": "15:00" 
+    }
+  ]
+}
