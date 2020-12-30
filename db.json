@@ -1,0 +1,38 @@
+{
+  "support": {
+    "issues": [
+      "Xem và kiểm soát dữ liệu trong Tài khoản Google của bạn",
+      "Quản lý Cài đặt Google của bạn",
+      "Bảo mật tài khoản có hoạt động đáng ngờ"
+    ],
+    "guided": [
+      {
+        "title": "Thực hiện Kiểm tra quyền riêng tư",
+        "icon": "./assets/support/support_privacy.png",
+        "description": "Hướng dẫn từng bước này giúp bạn chọn các tùy chọn cài đặt quyền riêng tư phù hợp với mình"
+      },
+      {
+        "title": "Chúng tôi giữ tài khoản của bạn luôn được bảo vệ",
+        "icon": "./assets/support/support_security.png",
+        "description": "Trang kiểm tra bảo mật hiển thị đề xuất dành riêng cho bạn để bảo mật tài khoản của mình"
+      },
+      {
+        "title": "Tìm điện thoại của bạn",
+        "icon": "./assets/support/support_find_phone.png",
+        "description": "Có vài bước có thể bảo mật thiết bị mất hay bị đánh cắp của bạn"
+      }
+    ],
+    "feedback": [
+      {
+        "title": "Báo cáo vấn đề",
+        "icon": "./assets/support/support_report.png",
+        "description": "Cho chúng tôi biết nếu bạn gặp vấn đề"
+      },
+      {
+        "title": "Đưa ra đề xuất",
+        "icon": "./assets/support/support_make_a_suggestion.png",
+        "description": "Giúp cải thiện các dịch vụ của Google"
+      }
+    ]
+  }
+}
