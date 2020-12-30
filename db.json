@@ -33,6 +33,11 @@
         "icon": "./assets/support/support_make_a_suggestion.png",
         "description": "Giúp cải thiện các dịch vụ của Google"
       }
-    ]
+    ],
+    "community": {
+      "title": "Hỏi một chuyên gia trong cộng đồng",
+      "description": "Đặt câu hỏi và nhận lời khuyên về các tính năng và tùy chọn cài đặt của Tài khoản Google",
+      "icon": "./assets/support/support_community.png"
+    }
   }
 }
