@@ -8,36 +8,36 @@
     "guided": [
       {
         "title": "Thực hiện Kiểm tra quyền riêng tư",
-        "icon": "./assets/support/support_privacy.png",
+        "icon": "./assets/images/support/privacy.png",
         "description": "Hướng dẫn từng bước này giúp bạn chọn các tùy chọn cài đặt quyền riêng tư phù hợp với mình"
       },
       {
         "title": "Chúng tôi giữ tài khoản của bạn luôn được bảo vệ",
-        "icon": "./assets/support/support_security.png",
+        "icon": "./assets/images/support/ecurity.png",
         "description": "Trang kiểm tra bảo mật hiển thị đề xuất dành riêng cho bạn để bảo mật tài khoản của mình"
       },
       {
         "title": "Tìm điện thoại của bạn",
-        "icon": "./assets/support/support_find_phone.png",
+        "icon": "./assets/images/support/find_phone.png",
         "description": "Có vài bước có thể bảo mật thiết bị mất hay bị đánh cắp của bạn"
       }
     ],
     "feedback": [
       {
         "title": "Báo cáo vấn đề",
-        "icon": "./assets/support/support_report.png",
+        "icon": "./assets/images/support/report.png",
         "description": "Cho chúng tôi biết nếu bạn gặp vấn đề"
       },
       {
         "title": "Đưa ra đề xuất",
-        "icon": "./assets/support/support_make_a_suggestion.png",
+        "icon": "./assets/images/support/make_a_suggestion.png",
         "description": "Giúp cải thiện các dịch vụ của Google"
       }
     ],
     "community": {
       "title": "Hỏi một chuyên gia trong cộng đồng",
       "description": "Đặt câu hỏi và nhận lời khuyên về các tính năng và tùy chọn cài đặt của Tài khoản Google",
-      "icon": "./assets/support/support_community.png"
+      "icon": "./assets/images/support/community.png"
     }
   }
 }
